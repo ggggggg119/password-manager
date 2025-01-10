@@ -18,3 +18,6 @@ def generate_key():
 
 # Call this function only once so it would not overlaps, delete this when you already run the command once
 generate_key()
+
+```
+<li>your generated password would be stored in password.json</li>
