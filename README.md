@@ -3,6 +3,8 @@ password generator, password vault, no fancy security/protection system, basic a
 
 # how to use
 <li>install cryptography for encryption (even though is useless in this project)</li>
+<li>clone this repo</li>
+<li>run python password.py in the terminal and choose what you want to do in the menu by typing the correct number</li>
 <li>generate your own key.key file by adding this snippets if it returns an error</li>
 
 <br>
@@ -21,3 +23,13 @@ generate_key()
 
 ```
 <li>your generated password would be stored in password.json</li>
+<li>make sure you change the master password to your own</li>
+
+```python
+def authenticate():
+    master_password = "viceblanka" #insert your master password here
+    user_input = input("Enter the master password: ")
+    if user_input != master_password:
+        print("Authentication failed!")
+        exit()
+    print("Authentication successful!")
