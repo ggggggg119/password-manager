@@ -4,7 +4,7 @@ password generator, password vault, no fancy security/protection system, basic a
 # how to use
 <li>install cryptography for encryption (even though is useless in this project)</li>
 <li>clone this repo</li>
-<li>run python password.py in the terminal and choose what you want to do in the menu by typing the correct number</li>
+<li>run <pre><code>python password.py</code></pre> in the terminal and choose what you want to do in the menu by typing the correct number</li>
 <li>generate your own key.key file by adding this snippets if it returns an error</li>
 
 <br>
